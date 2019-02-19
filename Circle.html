@@ -1,0 +1,30 @@
+<body>
+</body>
+
+<script>
+
+var width = 500;
+var height = 500;
+
+var x = 0
+var y = 0
+
+for (var i=0; i < 100; i++){
+	x = width*(Math.random());
+	y = height*(Math.random());
+
+
+
+	var div = document.createElement('div');
+	div.id = Math.random(Math.random()*100000);
+	div.style.zIndex = '5';
+	div.style.position = 'absolute';
+	div.style.left = '0px';
+	div.style.top = '0px';
+	div.style.width = '200px';
+	div.style.height = '200px';
+	div.style.borderRadius = '50%';
+	div.style.background = 'red';
+	document.getElementsByTagName('body')[0].appendChild('div');
+}
+</script>

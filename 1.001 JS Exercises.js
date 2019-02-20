@@ -47,7 +47,7 @@ var person = {
 
 }
 
-//Calling functions ( DOnt forget the commas)
+//Calling functions ( Dont forget the commas)
 person.greeting();
 
 

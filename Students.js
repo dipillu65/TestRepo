@@ -1,3 +1,4 @@
+module.exports = {};
 module.exports.myFunc = function(){
 
 return  [{'name':'john williams', 
@@ -36,7 +37,7 @@ return  [{'name':'john williams',
 'department':'1-CEE',
 'Year':'2022',
 'Computing-experience':10,
-'Role':'Student'
+'Role':'student'
 },
 
 {'name': 'Bensu Manav',
@@ -124,7 +125,7 @@ return  [{'name':'john williams',
 	'Department':'IDM',
 	'Year':'2020',
 	'Computing experience':'6',
-	'Role':'Student',
+	'Role':'student',
 },
 
 {'name':'Claire Yost', 
